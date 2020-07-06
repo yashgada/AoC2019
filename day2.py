@@ -44,7 +44,6 @@ for j in range(100):
         nums[1],nums[2]=j,k
         loop()
         if nums[0]==19690720:
-            ans=nums[1]*100+nums[2]
+           ans=nums[1]*100+nums[2]
 
-print("The answer to the second part is ",(100*nums[1]+nums[2]))
 print(ans)
